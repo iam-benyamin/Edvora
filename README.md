@@ -2,9 +2,9 @@
 
 create an authenticated feed system using FastAPI and Socket.IO.
 
-- [ ] best practics for project structure
-- [ ] create user model
+- [X] best practics for project structure
 - [ ] create database (sqlalchemy)
+- [ ] create user model
 - [ ] login functionality
 - [ ] logout functionality
 - [ ] session management
@@ -13,13 +13,19 @@ create an authenticated feed system using FastAPI and Socket.IO.
 
 # Start project
 
-make virtual enviroment
+make virtual enviroment \
 ``` python3 -m venv env ```
 
-activate enviroment
+activate enviroment \
 ``` source env/bin/activate ```
 
-install requirements
+install requirements \
 ``` pip3 install -r requirements.txt ```
+
+run app
+``` uvicorn app.main:app ```
+
+
+# database
 
 
