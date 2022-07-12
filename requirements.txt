@@ -1,3 +1,4 @@
 fastapi-socketio=0.0.9
 fastapi==0.78
 uvicorn[standard]
+SQLAlchemy==1.4

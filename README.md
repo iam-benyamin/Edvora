@@ -3,8 +3,8 @@
 create an authenticated feed system using FastAPI and Socket.IO.
 
 - [X] best practics for project structure
-- [ ] create database (sqlalchemy)
-- [ ] create user model
+- [X] create database (sqlalchemy)
+- [X] create user model
 - [ ] login functionality
 - [ ] logout functionality
 - [ ] session management
@@ -22,10 +22,11 @@ activate enviroment \
 install requirements \
 ``` pip3 install -r requirements.txt ```
 
-run app
+run app \
 ``` uvicorn app.main:app ```
 
 
 # database
 
+for data base I use sqlite3 and sqlalchemy
 
